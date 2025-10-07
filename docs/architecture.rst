@@ -16,6 +16,23 @@ The architecture documentation is organized into three main documents:
 Documents
 =========
 
+Visual Summary ⭐
+-----------------
+
+**Start here for a quick overview!**
+
+A quick reference guide with visual diagrams:
+
+- System architecture at a glance
+- Core components matrix
+- The R&D loop in 6 steps
+- CoSTEER evolution engine explained
+- Comparison with other frameworks
+- Decision tree for getting started
+- Performance characteristics
+
+`View Visual Summary <https://github.com/microsoft/RD-Agent/blob/main/docs/architecture/visual_summary.md>`_
+
 High-Level Architecture
 -----------------------
 
@@ -67,9 +84,10 @@ Quick Start Guide
 
 If you're new to RD-Agent architecture:
 
-1. Start with **High-Level Architecture** to understand the big picture
-2. Review **Component Comparison** to see how RD-Agent compares to alternatives
-3. Deep dive into **Low-Level Design** when you need implementation details
+1. Start with **Visual Summary** ⭐ for a quick overview with diagrams
+2. Review **High-Level Architecture** to understand the big picture
+3. Check out **Component Comparison** to see how RD-Agent compares to alternatives
+4. Deep dive into **Low-Level Design** when you need implementation details
 
 Architecture Diagrams
 =====================

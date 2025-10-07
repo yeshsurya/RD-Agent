@@ -4,6 +4,18 @@ This directory contains comprehensive architectural documentation for the RD-Age
 
 ## Documents
 
+### 0. [Visual Summary](visual_summary.md) ⭐ **Start Here!**
+A quick reference guide with visual diagrams:
+- System architecture at a glance
+- Core components matrix
+- The R&D loop in 6 steps
+- CoSTEER evolution engine explained
+- Comparison with other frameworks
+- Decision tree for getting started
+- Performance characteristics
+
+**Best for:** Getting a quick overview and understanding how everything fits together.
+
 ### 1. [High-Level Architecture](high_level_architecture.md)
 An overview of the system architecture, including:
 - System architecture diagram with all major components
@@ -48,9 +60,10 @@ Comparison with similar frameworks and systems:
 
 If you're new to RD-Agent architecture:
 
-1. **Start with** [High-Level Architecture](high_level_architecture.md) to understand the big picture
-2. **Then review** [Component Comparison](component_comparison.md) to see how RD-Agent compares to alternatives
-3. **Deep dive into** [Low-Level Design](low_level_design.md) when you need implementation details
+1. **Start with** [Visual Summary](visual_summary.md) ⭐ for a quick overview with diagrams
+2. **Then review** [High-Level Architecture](high_level_architecture.md) to understand the big picture
+3. **Check out** [Component Comparison](component_comparison.md) to see how RD-Agent compares to alternatives
+4. **Deep dive into** [Low-Level Design](low_level_design.md) when you need implementation details
 
 ## Architecture Diagrams
 
