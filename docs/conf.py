@@ -8,7 +8,11 @@
 
 import subprocess
 
-latest_tag = subprocess.check_output(["git", "describe", "--tags", "--abbrev=0"], text=True).strip()
+try:
+    latest_tag = subprocess.check_output(["git", "describe", "--tags", "--abbrev=0"], text=True).strip()
+except subprocess.CalledProcessError:
+    # Fallback version when no tags are available (e.g., in forks)
+    latest_tag = "dev"
 
 project = "RDAgent"
 copyright = "2024, Microsoft"
